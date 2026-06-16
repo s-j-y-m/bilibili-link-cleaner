@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Bilibili Link Cleaner",
+  "version": "1.1.0",
+  "description": "点击B站分享按钮时自动复制纯净链接",
+  "permissions": ["clipboardWrite", "storage"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.bilibili.com/video/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
