@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "B站纯净分享链接"
+    "message": "B站分享链接"
   },
   "extensionDescription": {
     "message": "点击B站分享按钮时自动复制纯净链接"
