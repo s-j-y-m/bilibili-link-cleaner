@@ -16,7 +16,7 @@
 
 ### 通过 Edge 插件商店安装
 
-商店上架中，敬请期待。
+[点击跳转到商店页面](https://microsoftedge.microsoft.com/addons/detail/%E6%9B%B4%E5%A5%BD%E7%9A%84b%E7%AB%99%E5%88%86%E4%BA%AB%E9%93%BE%E6%8E%A5/ldhfoeomfofjnoanpoiingplbbgilida)
 
 ### 通过本地安装
 
