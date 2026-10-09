@@ -1,0 +1,75 @@
+# 更好的B站分享链接
+
+自动复制B站视频纯净链接到剪贴板
+
+## 功能
+
+- 点击B站视频页面的分享按钮时，自动复制纯净链接到剪贴板
+- 格式：`[视频标题] 纯净链接`
+- 移除链接中的多余参数（如 `?share_source=copy_web&vd_source=...`）
+- 保留原有分享对话框功能
+- 支持 b23.tv 短链格式（可选）
+- 可通过设置面板控制开关
+- 无广告、无追踪、不收集任何个人数据
+
+## 安装步骤
+
+### 通过 Edge 插件商店安装
+
+[点击跳转到商店页面](https://microsoftedge.microsoft.com/addons/detail/%E6%9B%B4%E5%A5%BD%E7%9A%84b%E7%AB%99%E5%88%86%E4%BA%AB%E9%93%BE%E6%8E%A5/ldhfoeomfofjnoanpoiingplbbgilida)
+
+### 通过本地安装
+
+1. 下载或克隆本项目到本地
+2. 打开 Edge 浏览器，地址栏输入 `edge://extensions/`
+3. 开启右上角的「开发人员模式」
+4. 点击「加载解压缩的扩展」
+5. 选择 `bilibili-link-cleaner` 文件夹
+6. 扩展安装完成
+
+## 使用方法
+
+1. 访问任意 B 站视频页面（如 `https://www.bilibili.com/video/BV...`）
+2. 点击视频下方的「分享」按钮
+3. 自动复制纯净链接到剪贴板
+4. 分享按钮上方会显示「已复制纯净链接」提示
+
+## 设置面板
+
+点击浏览器工具栏中的扩展图标，打开设置面板：
+
+| 选项 | 说明 | 默认值 |
+|------|------|--------|
+| 总开关 | 启用/禁用扩展功能 | 开启 |
+| 显示复制提示 | 复制后是否显示提示弹窗 | 开启 |
+| 使用 b23.tv 短链 | 将链接转为短链格式 | 关闭 |
+
+修改设置后需刷新B站页面生效。
+
+## 示例
+
+原始链接：
+```
+【《明日方舟》EP - 浸春芜】 https://www.bilibili.com/video/BV1F7421T7dr/?share_source=copy_web&vd_source=107539b1ee2c8d11e21e721199111483
+```
+
+复制后的文本（标准模式）：
+```
+[《明日方舟》EP - 浸春芜] https://www.bilibili.com/video/BV1F7421T7dr/
+```
+
+复制后的文本（短链模式）：
+```
+[《明日方舟》EP - 浸春芜] https://b23.tv/BV1F7421T7dr
+```
+
+## 隐私
+
+本扩展不收集、不存储、不传输任何个人数据，所有设置仅保存在本地设备。详见 [PRIVACY.md](PRIVACY.md)。
+
+## 注意事项
+
+- 仅在 B 站视频页面生效
+- 需要允许剪贴板权限
+- 兼容 Edge / Chrome 浏览器（基于 Chromium）
+- 完全开源：https://github.com/s-j-y-m/bilibili-link-cleaner
